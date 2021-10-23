@@ -17,11 +17,12 @@ function Service() {
       <section
         className="content-inner-2 wow fadeInUp"
         style={{ backgroundImage: "url(images/background/bg1.png)" }}
+        id="project"
       >
         <div className="container">
           <div className="section-head style-1 text-center">
             <h6 className="sub-title bgl-primary m-b20 text-primary">
-              Services
+              Project
             </h6>
             <h2 className="title">Provide Awesome Service To You</h2>
           </div>

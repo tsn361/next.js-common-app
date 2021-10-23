@@ -16,7 +16,7 @@ function Header() {
                         <div className="logo-header mostion logo-dark">
                            <Link href="/"><a>
                                {/* <img src="images/logo.png" alt=""/> */}
-                               ChainProperty
+                               Property block
                             </a></Link>
                         </div>
                         {/* <!-- Nav Toggle Button --> */}
@@ -28,7 +28,7 @@ function Header() {
                         {/* <!-- Extra Nav --> */}
                         <div className="extra-nav">
                             <div className="extra-cell">
-                                <Link href="contact-us-1"><a className="btn btn-link d-inline-flex align-items-center"><i className="fa fa-angle-right m-r10"></i>Get A Quote</a></Link>
+                                <Link href="contact-us-1"><a className="btn btn-link d-inline-flex align-items-center"><i className="fa fa-angle-right m-r10"></i>Buy the Token</a></Link>
                             </div>
                         </div>
                         <div className={`header-nav navbar-collapse collapse justify-content-end ${show ? "show" : ""}`} id="navbarNavDropdown">
@@ -37,7 +37,7 @@ function Header() {
                             </div>
                             <ul className="nav navbar-nav navbar">	
                                 <li><Link href="/"><a>Home</a></Link></li>
-                                <li className={`${open === "about" ? "open" : ""}`}><a  onClick={() => setOpen("about")}><span>Pages</span><i className="fa fa-chevron-down"></i></a>
+                                {/* <li className={`${open === "about" ? "open" : ""}`}><a  onClick={() => setOpen("about")}><span>Pages</span><i className="fa fa-chevron-down"></i></a>
                                     <ul className="sub-menu">
                                         <li><Link href="/about-us-1"><a>About Us</a></Link></li>
 										<li><Link href="/faq-1"><a>Faq</a></Link></li>
@@ -60,8 +60,13 @@ function Header() {
                                         <li><Link href="/blog-large-right-sidebar"><a>Large Right Sidebar</a></Link></li>
 										<li><Link href="/blog-details-1"><a>Blog Details</a></Link></li>
                                     </ul>
-                                </li>
-								<li><Link href="/contact-us-1"><a>Contact Us</a></Link></li>
+                                </li> */}
+                                <li><Link href="#about"><a>About</a></Link></li>
+                                <li><Link href="#project"><a>The Project</a></Link></li>
+                                <li><Link href="#token"><a>Tokens</a></Link></li>
+								<li><Link href="#roadmap"><a>Roadmap</a></Link></li>
+								<li><Link href="#contact"><a>Contact</a></Link></li>
+								{/* <li><Link href="/contact-us-1"><a>Contact Us</a></Link></li> */}
                             </ul>
                             <div className="dlab-social-icon">
                                 <ul>

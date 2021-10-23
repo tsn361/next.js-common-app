@@ -98,7 +98,7 @@ function Footer() {
             <div className="container">
                 <div className="row">
                     <div className="col-sm-12 text-center"> 
-						<span className="copyright-text">Copyright © 2021 <a href="https://ChainProperty.com/" target="_blank">ChainProperty</a>. All rights reserved.</span> 
+						<span className="copyright-text">Copyright © 2021 <a href="https://propertyblock.com/" target="_blank">propertyblock</a>. All rights reserved.</span> 
 					</div>
                 </div>
             </div>
